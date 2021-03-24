@@ -9,9 +9,9 @@ GO
 -- =============================================
 -- Author:		warinsoul
 -- Create date: 28.07.2020
--- Description:	Процедура сихранизации таблиц 1С Copyupp и uppunggf
+-- Description:	ГЏГ°Г®Г¶ГҐГ¤ГіГ°Г  Г±ГЁГµГ°Г Г­ГЁГ§Г Г¶ГЁГЁ ГІГ ГЎГ«ГЁГ¶ 1Г‘ Copyupp ГЁ uppunggf
 -- =============================================
-ALTER PROCEDURE [dbo].[SynchronizationUppCopyUpp] 
+CREATE PROCEDURE [dbo].[SynchronizationUppCopyUpp] 
 	-- Add the parameters for the stored procedure here
 	@dbname_from sysname, 
 	@TableName sysname,
