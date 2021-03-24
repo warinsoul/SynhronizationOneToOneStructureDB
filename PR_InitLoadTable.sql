@@ -8,9 +8,9 @@ GO
 -- =============================================
 -- Author:		warinsoul
 -- Create date: 29.07.2020
--- Description:	Процедура запуска синхронизации
+-- Description:	ГЏГ°Г®Г¶ГҐГ¤ГіГ°Г  Г§Г ГЇГіГ±ГЄГ  Г±ГЁГ­ГµГ°Г®Г­ГЁГ§Г Г¶ГЁГЁ
 -- =============================================
-ALTER PROCEDURE [dbo].[InitLoadTable] 
+CREATE PROCEDURE [dbo].[InitLoadTable] 
 	-- Add the parameters for the stored procedure here
 
 AS
