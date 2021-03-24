@@ -8,9 +8,9 @@ GO
 -- =============================================
 -- Author:		warinsoul
 -- Create date: 26.07.2020
--- Description:	Фукция переводящая список таблиц в строку
+-- Description:	Г”ГіГЄГ¶ГЁГї ГЇГҐГ°ГҐГўГ®Г¤ГїГ№Г Гї Г±ГЇГЁГ±Г®ГЄ ГІГ ГЎГ«ГЁГ¶ Гў Г±ГІГ°Г®ГЄГі
 -- =============================================
-ALTER FUNCTION [dbo].[GetListColumnsForFilter] 
+CREATE FUNCTION [dbo].[GetListColumnsForFilter] 
 (
 	-- Add the parameters for the function here
 	@ListColumns  ColNames readonly
