@@ -5,7 +5,7 @@ SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
 GO
-       ALTER FUNCTION [dbo].[IterCharlistToTable]
+       CREATE FUNCTION [dbo].[IterCharlistToTable]
                     (@list      sysname,
                      @delimiter nchar(1) = N',')
          RETURNS @tbl TABLE ([ColName] nvarchar(256),[ColId] int IDENTITY(1, 1) NOT NULL,ColType nvarchar(256)) AS
