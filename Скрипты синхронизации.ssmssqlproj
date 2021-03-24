@@ -1,0 +1,118 @@
+<?xml version="1.0"?>
+<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="Скрипты синхронизации">
+  <Items>
+    <LogicalFolder Name="Соединения" Type="2" Sorted="true">
+      <Items>
+        <ConnectionNode Name="UNGGF-SRV-1C:sa_industries">
+          <Created>2021-03-06T15:52:05.1899568+05:00</Created>
+          <Type>SQL</Type>
+          <Server>UNGGF-SRV-1C</Server>
+          <UserName>sa_industries</UserName>
+          <Authentication>SQL</Authentication>
+          <InitialDB>obmen_rn</InitialDB>
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Среда Microsoft SQL Server Management Studio - запрос</ApplicationName>
+        </ConnectionNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Запросы" Type="0" Sorted="true">
+      <Items>
+        <FileNode Name="DDL_LogEvents.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:UNGGF-SRV-1C:False:sa_industries</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>UNGGF-SRV-1C</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa_industries</AssociatedConnUserName>
+          <FullPath>DDL_LogEvents.sql</FullPath>
+        </FileNode>
+        <FileNode Name="DDL_LogParametrs.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:UNGGF-SRV-1C:False:sa_industries</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>UNGGF-SRV-1C</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa_industries</AssociatedConnUserName>
+          <FullPath>DDL_LogParametrs.sql</FullPath>
+        </FileNode>
+        <FileNode Name="DDL_LogSynchonization.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:UNGGF-SRV-1C:False:sa_industries</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>UNGGF-SRV-1C</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa_industries</AssociatedConnUserName>
+          <FullPath>DDL_LogSynchonization.sql</FullPath>
+        </FileNode>
+        <FileNode Name="PR_InitLoadTable.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:UNGGF-SRV-1C:False:sa_industries</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>UNGGF-SRV-1C</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa_industries</AssociatedConnUserName>
+          <FullPath>PR_InitLoadTable.sql</FullPath>
+        </FileNode>
+        <FileNode Name="PR_SynchronizationUppCopyUpp.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:UNGGF-SRV-1C:False:sa_industries</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>UNGGF-SRV-1C</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa_industries</AssociatedConnUserName>
+          <FullPath>PR_SynchronizationUppCopyUpp.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SF_FormatDate.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:UNGGF-SRV-1C:False:sa_industries</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>UNGGF-SRV-1C</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa_industries</AssociatedConnUserName>
+          <FullPath>SF_FormatDate.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SF_GetIDRRefList.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:UNGGF-SRV-1C:False:sa_industries</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>UNGGF-SRV-1C</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa_industries</AssociatedConnUserName>
+          <FullPath>SF_GetIDRRefList.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SF_GetListColumnsForChecksum.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:UNGGF-SRV-1C:False:sa_industries</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>UNGGF-SRV-1C</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa_industries</AssociatedConnUserName>
+          <FullPath>SF_GetListColumnsForChecksum.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SF_GetListColumnsForFilter.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:UNGGF-SRV-1C:False:sa_industries</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>UNGGF-SRV-1C</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa_industries</AssociatedConnUserName>
+          <FullPath>SF_GetListColumnsForFilter.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SF_GetListColumnsForMerge.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:UNGGF-SRV-1C:False:sa_industries</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>UNGGF-SRV-1C</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa_industries</AssociatedConnUserName>
+          <FullPath>SF_GetListColumnsForMerge.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SF_GetListColumnsForSelect.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:UNGGF-SRV-1C:False:sa_industries</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>UNGGF-SRV-1C</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa_industries</AssociatedConnUserName>
+          <FullPath>SF_GetListColumnsForSelect.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SF_GetListColumnsForSelectETL.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:UNGGF-SRV-1C:False:sa_industries</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>UNGGF-SRV-1C</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa_industries</AssociatedConnUserName>
+          <FullPath>SF_GetListColumnsForSelectETL.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SF_GetListColumnsForUpdateETL.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:UNGGF-SRV-1C:False:sa_industries</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>UNGGF-SRV-1C</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa_industries</AssociatedConnUserName>
+          <FullPath>SF_GetListColumnsForUpdateETL.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SF_GetSQLString.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:UNGGF-SRV-1C:False:sa_industries</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>UNGGF-SRV-1C</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa_industries</AssociatedConnUserName>
+          <FullPath>SF_GetSQLString.sql</FullPath>
+        </FileNode>
+        <FileNode Name="TF_IterCharlistToTable.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:UNGGF-SRV-1C:False:sa_industries</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>UNGGF-SRV-1C</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa_industries</AssociatedConnUserName>
+          <FullPath>TF_IterCharlistToTable.sql</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Разное" Type="3" Sorted="true">
+      <Items />
+    </LogicalFolder>
+  </Items>
+</SqlWorkbenchSqlProject>
