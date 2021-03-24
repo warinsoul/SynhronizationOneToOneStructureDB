@@ -8,9 +8,9 @@ GO
 -- =============================================
 -- Author:		warinsoul
 -- Create date: 06.08.2020
--- Description:	Фукция переводящая список таблиц в строку для определения полей для обновления
+-- Description:	Г”ГіГЄГ¶ГЁГї ГЇГҐГ°ГҐГўГ®Г¤ГїГ№Г Гї Г±ГЇГЁГ±Г®ГЄ ГІГ ГЎГ«ГЁГ¶ Гў Г±ГІГ°Г®ГЄГі Г¤Г«Гї Г®ГЇГ°ГҐГ¤ГҐГ«ГҐГ­ГЁГї ГЇГ®Г«ГҐГ© Г¤Г«Гї Г®ГЎГ­Г®ГўГ«ГҐГ­ГЁГї
 -- =============================================
-ALTER FUNCTION [dbo].[GetListColumnsForUpdateETL] 
+CREATE FUNCTION [dbo].[GetListColumnsForUpdateETL] 
 (
 	-- Add the parameters for the function here
 	@ListColumns  ColNames readonly,
