@@ -13,9 +13,9 @@ GO
 -- =============================================
 -- Author:		warinsoul
 -- Create date: 28.07.2020
--- Description:	Функция собирающая список _IDRRef
+-- Description:	Г”ГіГ­ГЄГ¶ГЁГї Г±Г®ГЎГЁГ°Г ГѕГ№Г Гї Г±ГЇГЁГ±Г®ГЄ _IDRRef
 -- =============================================
-ALTER FUNCTION [dbo].[GetIDRRefList] 
+CREATE FUNCTION [dbo].[GetIDRRefList] 
 (
 	-- Add the parameters for the function here
 	@TableScript TableScript readonly,
