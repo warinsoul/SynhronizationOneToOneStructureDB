@@ -9,9 +9,9 @@ GO
 -- =============================================
 -- Author:		warinsoul
 -- Create date: 06.08.2020
--- Description:	Фукция формирующие строку checksum
+-- Description:	Г”ГіГЄГ¶ГЁГї ГґГ®Г°Г¬ГЁГ°ГіГѕГ№ГЁГҐ Г±ГІГ°Г®ГЄГі checksum
 -- =============================================
-ALTER FUNCTION [dbo].[GetListColumnsForChecksum] 
+CREATE FUNCTION [dbo].[GetListColumnsForChecksum] 
 (
 	-- Add the parameters for the function here
 	@ColName sysname,
