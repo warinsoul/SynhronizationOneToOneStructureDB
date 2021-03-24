@@ -8,9 +8,9 @@ GO
 -- =============================================
 -- Author:		warinsoul
 -- Create date: 23.07.2020
--- Description:	Формирование SQL запроса
+-- Description:	Г”Г®Г°Г¬ГЁГ°Г®ГўГ Г­ГЁГҐ SQL Г§Г ГЇГ°Г®Г±Г 
 -- =============================================
-ALTER FUNCTION [dbo].[GetSQLString] 
+CREATE FUNCTION [dbo].[GetSQLString] 
 (
 	-- Add the parameters for the function here
 	@databasename sysname,
